@@ -1,0 +1,113 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+[Package|Standard Setup Package 1|GamesForU]
+Icon1=smiley.exe
+Title1=smiley
+StartIn1=$(AppPath)
+Key1=Icon3
+
+
+[Package|Standard Setup Package 1|Smiley]
+Icon1=smiley.exe
+Title1=Smiley
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Documents and Settings\rohit\Desktop\gameforu
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+smiley.CHI=
+smiley.chm=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+F:\WINNT\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+F:\WINNT\system32\msvbvm60.dll=Yes
+F:\WINNT\system32\oleaut32.dll=Yes
+F:\WINNT\system32\olepro32.dll=Yes
+F:\WINNT\system32\asycfilt.dll=Yes
+F:\WINNT\system32\stdole2.tlb=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+F:\WINNT\system32\VB6STKIT.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\WINNT\system32\MSCOMCTL.OCX=Yes
+F:\Documents and Settings\rohit\Desktop\gameforu\smiley.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+F:\Documents and Settings\rohit\Desktop\gamexe\smiley.exe=$(AppPath)
+F:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+F:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+F:\Documents and Settings\rohit\Desktop\gameforu\smiley.chm=$(AppPath)
+F:\WINNT\system32\hhctrl.ocx=$(WinSysPath)
+F:\WINNT\system32\itss.dll=$(WinSysPath)
+F:\WINNT\system32\itircl.dll=$(WinSysPath)
+F:\WINNT\hh.exe=$(WinSysPath)
+F:\Documents and Settings\rohit\Desktop\gameforu\smiley.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+F:\Documents and Settings\rohit\Desktop\gamexe\smiley.exe=No
+F:\Documents and Settings\rohit\Desktop\gameforu\smiley.chm=No
+F:\Documents and Settings\rohit\Desktop\gameforu\smiley.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Smiley
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Accessories
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Accessories]
+Icon1=smiley.exe
+Title1=Games
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=F:\Documents and Settings\rohit\Desktop\gameforu
+ProjectFolder=F:\Documents and Settings\rohit\Desktop\gameforu
+ServerSideCab=
+File1=F:\Documents and Settings\rohit\Desktop\gameforu\setup.exe
+File2=F:\Documents and Settings\rohit\Desktop\gameforu\Setup.Lst
+File3=F:\Documents and Settings\rohit\Desktop\gameforu\smiley.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
